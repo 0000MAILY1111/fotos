@@ -12,8 +12,8 @@ export const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="btn-group">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+                <div className="btn-group ">
                     <button type="button" className="btn btn-secondary dropdown-toggle"
                         onClick={toggleDropdown}
                         aria-haspopup="true" aria-expanded={isOpen}
@@ -27,7 +27,9 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="d-flex ">
+                
+
+                <div className="d-flex text-white ml-auto mr-2 justify-content-end">
 
                     <NavLink className={({ isActive }) => `nav-item nav-link  ${isActive ? 'active' : ''}`} to="/login">
                         Login
