@@ -2,6 +2,6 @@ import React from 'react'
 
 export const EventosPage = () => {
   return (
-    <div>EventosPage</div>
+    <h1>EventosPage</h1>
   )
 }

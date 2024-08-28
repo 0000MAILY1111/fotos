@@ -41,14 +41,6 @@
   color: #888;
 }
 
-
-
-
-
-
-
-
-
 .dropdown {
   position: relative;
   display: inline-block;
@@ -77,3 +69,4 @@
 .dropdown-menu li a:hover {
   background-color: #ddd;
 }
+
