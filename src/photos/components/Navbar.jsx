@@ -27,13 +27,18 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-                
+                <div className="d-flex text-white mr2 p-2">
+                <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/events"> Eventos
+                 </NavLink> 
+                </div>
 
                 <div className="d-flex text-white ml-auto mr-2 justify-content-end">
 
                     <NavLink className={({ isActive }) => `nav-item nav-link  ${isActive ? 'active' : ''}`} to="/login">
-                        Login
-                    </NavLink>
+                        
+                   </NavLink>
+
+
                     <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/home">
                         Logout
                     </NavLink>

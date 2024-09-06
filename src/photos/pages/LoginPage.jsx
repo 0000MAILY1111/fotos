@@ -1,6 +1,16 @@
 import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 export const LoginPage = () => {
+
+    const navigate = useNavigate();
+
+
+    const onLogin = () => {
+        navigate('/home', { replace: true });
+
+
+    }
     return (
         <>
            <div className="d-flex justify-content-center align-items-center vh-100">
@@ -35,10 +45,11 @@ export const LoginPage = () => {
                             Recordar Usuario
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary w-100 mb-3">Sign in</button>
+                    <button type="submit" className="btn btn-primary w-100 mb-3"
+                    onClick={ onLogin}>Sign in</button>
                     <a className="small text-muted" href="#!">¿Olvidaste tu contraseña?</a>
                     <p className="mt-4" style={{ color: '#393f81' }}>
-                        ¿No tienes cuenta? <a href="#!" style={{ color: '#393f81' }}>Regístrate aquí</a>
+                        ¿No tienes cuenta? <Link to="/registro" style={{ color: '#393f81' }}>Regístrate aquí</Link>
                     </p>
                 </form>
             </div>
