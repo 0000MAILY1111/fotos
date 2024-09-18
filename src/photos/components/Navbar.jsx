@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-///Nuevo componente de Navbar
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
@@ -29,6 +28,21 @@ export const Navbar = () => {
 
                 <div className="d-flex text-white mr2 p-2">
                 <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/events"> Eventos
+                 </NavLink> 
+                </div>
+
+                <div className="d-flex text-white mr2 p-2">
+                <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/events"> Archivo
+                 </NavLink> 
+                </div>
+
+                <div className="d-flex text-white mr2 p-2">
+                <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/events"> Editar
+                 </NavLink> 
+                </div>
+
+                <div className="d-flex text-white mr2 p-2">
+                <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/events"> Vista
                  </NavLink> 
                 </div>
 

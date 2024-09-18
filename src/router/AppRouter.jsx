@@ -5,6 +5,9 @@ import { HomeRouter } from './HomeRouter';
 import { HomePage } from '../photos/pages/HomePage';
 import { RegistroPage } from '../photos/pages/RegistroPage';
 
+
+
+
 ///aqui las rutas que no quiero que tengan mi coponente Navbar (el menu desplegable negro)
 export const AppRouter = () => {
   return (

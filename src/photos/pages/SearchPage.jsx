@@ -2,6 +2,6 @@ import React from 'react'
 
 export const SearchPage = () => {
   return (
-    <h1>Buscador de la Pagina</h1>
+    <h1>Para Buscar la pagina </h1>
   )
 }
