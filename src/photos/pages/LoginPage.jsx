@@ -4,12 +4,8 @@ import { Link, useNavigate } from 'react-router-dom'
 export const LoginPage = () => {
 
     const navigate = useNavigate();
-
-
     const onLogin = () => {
         navigate('/home', { replace: true });
-
-
     }
     return (
         <>

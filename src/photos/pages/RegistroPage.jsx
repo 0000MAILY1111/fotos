@@ -4,10 +4,8 @@ import { Link, useNavigate } from 'react-router-dom';
 export const RegistroPage = () => {
 
     const navigate = useNavigate();
-
     const onRegister = () => {
         navigate('/home', { replace: true });
-
     };
     return (
         <>
@@ -55,8 +53,6 @@ export const RegistroPage = () => {
                     </form>
                 </div>
             </div>
-
-           
         </>
     );
 };

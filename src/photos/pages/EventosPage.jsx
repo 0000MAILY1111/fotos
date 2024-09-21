@@ -7,7 +7,6 @@ export const EventosPage = () => {
     <>
     <div>Pagina de Eventos</div>
     <hr/>
-
     <EventosList publisher={'Eventos'}/>
     </>
     

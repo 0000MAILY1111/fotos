@@ -70,3 +70,16 @@
   background-color: #ddd;
 }
 
+#sidebarMenu {
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  overflow-y: auto; /* Permite el desplazamiento vertical si el contenido es demasiado grande */
+}
+
+.list-group-item {
+  background-color: #343a40; /* Color de fondo oscuro */
+  border: none; /* Sin bordes */
+}
+
+.list-group-item:hover {
+  background-color: #495057; /* Color de fondo al pasar el ratón */
+}

@@ -1,10 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-
 export const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
-
     const toggleDropdown = () => {
         setIsOpen(!isOpen);
     };
@@ -14,9 +12,7 @@ export const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-2">
                 <div className="btn-group ">
                     <button type="button" className="btn btn-secondary dropdown-toggle"
-                        onClick={toggleDropdown}
-                        aria-haspopup="true" aria-expanded={isOpen}
-                    >
+                        onClick={toggleDropdown}  aria-haspopup="true" aria-expanded={isOpen} >
                         Menú
                     </button>
                     <div className={`dropdown-menu dropdown-menu-right ${isOpen ? 'show' : ''}`}>
@@ -48,16 +44,12 @@ export const Navbar = () => {
 
                 <div className="d-flex text-white ml-auto mr-2 justify-content-end">
 
-                    <NavLink className={({ isActive }) => `nav-item nav-link  ${isActive ? 'active' : ''}`} to="/login">
-                        
+                   <NavLink className={({ isActive }) => `nav-item nav-link  ${isActive ? 'active' : ''}`} to="/login">
                    </NavLink>
-
-
                     <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/home">
                         Logout
                     </NavLink>
                 </div>
-
             </nav>
 
         </>
