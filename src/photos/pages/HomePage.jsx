@@ -82,6 +82,45 @@ export const HomePage = () => {
       </div>
      
     
+
+      <h1>Galería de Pantalones</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="card">
+              <img src="https://st.depositphotos.com/1706719/1267/i/950/depositphotos_12674494-stock-photo-blue-jeans-isolated-on-white.jpg" className="card-img-top" alt="Polera 1" />
+              <div className="card-body">
+                <h5 className="card-title">Pantalon 1</h5>
+                <p className="card-text">Largo Jean  Talla 39</p>
+                <a href="#" className="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="col-md-4">
+            <div className="card">
+              <img src="https://static6.depositphotos.com/1026498/651/i/450/depositphotos_6516008-stock-photo-jeans-trousers.jpg" className="card-img-top" alt="Polera 2" />
+              <div className="card-body">
+                <h5 className="card-title">Pantalon 2</h5>
+                <p className="card-text">Largo Jean Talla 40</p>
+                <a href="#" className="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="card">
+              <img src="https://st4.depositphotos.com/2171343/40819/i/600/depositphotos_408191130-stock-photo-fashion-pants-wearable-front-back.jpg" className="card-img-top" alt="Polera 2" />
+              <div className="card-body">
+                <h5 className="card-title">Pantalon 3</h5>
+                <p className="card-text">Largo Jean Talla 38</p>
+                <a href="#" className="btn btn-primary">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
