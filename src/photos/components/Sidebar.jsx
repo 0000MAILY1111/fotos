@@ -10,7 +10,7 @@ const Sidebar = () => {
                         <i className="fas fa-user fa-fw me-3"></i><span>User</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white active">
-                        <i className="fas fa-chart-area fa-fw me-3"></i><span>Informacion 2</span>
+                        <i className="fas fa-chart-area fa-fw me-3"></i><span>Categorias</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
                         <i className="fas fa-chart-line fa-fw me-3"></i><span>Informacion 3</span>
