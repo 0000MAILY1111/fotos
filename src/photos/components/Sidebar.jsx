@@ -13,10 +13,10 @@ const Sidebar = () => {
                         <i className="fas fa-chart-area fa-fw me-3"></i><span>Categorias</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Informacion 3</span>
+                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Marcas</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Informacion 4</span>
+                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Informacion4</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
                         <i className="fas fa-chart-pie fa-fw me-3"></i><span>Informacion 5</span>
