@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar"
 
 export const HomePage = () => {
 
-
+///aqui se puede colocar de modo opcional lo que ira en la pagina home
   return (
     <>
       <Navbar />
@@ -23,7 +23,7 @@ export const HomePage = () => {
             <div className="card">
               <img src="https://www.topmark.cl/wp-content/uploads/2022/01/polera_pique_gris-1.jpg" className="card-img-top" alt="Polera 2" />
               <div className="card-body">
-                <h5 className="card-title">Polera 2</h5>
+                <h5 className="card-title">Polera 34</h5>
                 <p className="card-text">Manga Corta Talla XL</p>
                 <a href="#" className="btn btn-primary">Ver detalles</a>
               </div>
