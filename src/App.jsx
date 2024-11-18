@@ -8,11 +8,14 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 import { AppRouter } from './router/AppRouter'
+import { AuthProvider } from './auth/context/AuthProvider';
 
 export const App = () => {
   return (
     <>
-    <AppRouter/>
+      <AuthProvider>
+        <AppRouter />
+      </AuthProvider>
     </>
   )
 }

@@ -46,7 +46,7 @@ export const Navbar = () => {
 
                    <NavLink className={({ isActive }) => `nav-item nav-link  ${isActive ? 'active' : ''}`} to="/login">
                    </NavLink>
-                    <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/home">
+                    <NavLink className={({ isActive }) => `nav-item nav-link ${isActive ? 'active' : ''}`} to="/login">
                         Logout
                     </NavLink>
                 </div>
