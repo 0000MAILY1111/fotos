@@ -13,26 +13,24 @@ const Sidebar = () => {
                         <i className="fas fa-chart-area fa-fw me-3"></i><span>Centros de Salud</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Marcas</span>
+                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Lugares Turisticos</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Informacion4</span>
+                        <i className="fas fa-chart-line fa-fw me-3"></i><span>Bibliotecas</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-chart-pie fa-fw me-3"></i><span>Informacion 5</span>
+                        <i className="fas fa-chart-pie fa-fw me-3"></i><span>Espacios publicos</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-chart-bar fa-fw me-3"></i><span>Informacion 6</span>
+                        <i className="fas fa-chart-bar fa-fw me-3"></i><span>Areas Recreativas</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-calendar fa-fw me-3"></i><span>Informacion 7</span>
+                        <i className="fas fa-calendar fa-fw me-3"></i><span>Colegios</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-users fa-fw me-3"></i><span>informacion 8</span>
+                        <i className="fas fa-users fa-fw me-3"></i><span>Centros Comerciales</span>
                     </a>
-                    <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
-                        <i className="fas fa-money-bill fa-fw me-3"></i><span>Informacion 9</span>
-                    </a>
+                   
                 </div>
             </div>
         </nav>
