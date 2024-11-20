@@ -7,10 +7,10 @@ const Sidebar = () => {
                 <div className="list-group list-group-flush mx-3 mt-4">
 
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white" aria-current="true">
-                        <i className="fas fa-user fa-fw me-3"></i><span>User</span>
+                        <i className="fas fa-user fa-fw me-3"></i><span>Usuario</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white active">
-                        <i className="fas fa-chart-area fa-fw me-3"></i><span>Categorias</span>
+                        <i className="fas fa-chart-area fa-fw me-3"></i><span>Centros de Salud</span>
                     </a>
                     <a href="#" className="list-group-item list-group-item-action py-2 ripple bg-dark text-white">
                         <i className="fas fa-chart-line fa-fw me-3"></i><span>Marcas</span>
